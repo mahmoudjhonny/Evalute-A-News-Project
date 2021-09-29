@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    &.form {
+        padding: 20px;
+        border: 2px black solid;
+        margin: 25px;
+    }
+    &.result {
+        padding: 20px;
+        border: 2px black solid;
+        margin: 25px;
+        display: grid;
+        grid-gap: 20px;
+        font-family: system-ui;
+    }
+}
